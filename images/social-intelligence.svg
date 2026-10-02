@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 620">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#06111f"/><stop offset=".5" stop-color="#160b24"/><stop offset="1" stop-color="#06171a"/></linearGradient>
+<linearGradient id="g" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#00d9ff"/><stop offset=".5" stop-color="#ff38c7"/><stop offset="1" stop-color="#ff8a1f"/></linearGradient>
+<filter id="glow"><feGaussianBlur stdDeviation="7" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect width="1000" height="620" rx="32" fill="url(#bg)"/>
+<g opacity=".16" stroke="#8db1cd">
+<path d="M0 100H1000M0 200H1000M0 300H1000M0 400H1000M0 500H1000"/>
+<path d="M125 0V620M250 0V620M375 0V620M500 0V620M625 0V620M750 0V620M875 0V620"/>
+</g>
+<g fill="#0d1c2e" stroke="#335776" stroke-width="2">
+<rect x="55" y="55" width="250" height="130" rx="18"/>
+<rect x="375" y="55" width="250" height="130" rx="18"/>
+<rect x="695" y="55" width="250" height="130" rx="18"/>
+<rect x="90" y="445" width="260" height="105" rx="18"/>
+<rect x="370" y="445" width="260" height="105" rx="18"/>
+<rect x="650" y="445" width="260" height="105" rx="18"/>
+</g>
+<g stroke="url(#g)" stroke-width="4" fill="none" filter="url(#glow)">
+<path d="M120 410C240 300 335 390 430 260S610 180 700 270 835 370 900 210"/>
+</g>
+<g fill="#e3f7ff" font-family="Arial">
+<text x="90" y="100" font-size="20" font-weight="700">PUBLIC SIGNALS</text>
+<text x="410" y="100" font-size="20" font-weight="700">FILTERED INSIGHTS</text>
+<text x="730" y="100" font-size="20" font-weight="700">OPPORTUNITIES</text>
+<text x="125" y="490" font-size="18">People & posts</text>
+<text x="405" y="490" font-size="18">Custom criteria</text>
+<text x="685" y="490" font-size="18">Usable reports</text>
+</g>
+<circle cx="500" cy="320" r="72" fill="#0b2238" stroke="#00d9ff" stroke-width="4" filter="url(#glow)"/>
+<path d="M470 320h60M500 290v60" stroke="#ff38c7" stroke-width="8" stroke-linecap="round"/>
+</svg>

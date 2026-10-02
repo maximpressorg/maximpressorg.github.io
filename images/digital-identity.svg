@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" role="img" aria-labelledby="title desc">
+  <title id="title">Connected digital identity</title>
+  <desc id="desc">A premium abstract network linking a central brand identity with website, X, Instagram and Facebook touchpoints.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#070b18"/>
+      <stop offset="0.5" stop-color="#111127"/>
+      <stop offset="1" stop-color="#061626"/>
+    </linearGradient>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#00d8ff"/>
+      <stop offset="0.48" stop-color="#7d55ff"/>
+      <stop offset="1" stop-color="#ff37ad"/>
+    </linearGradient>
+    <radialGradient id="halo">
+      <stop offset="0" stop-color="#7d55ff" stop-opacity=".42"/>
+      <stop offset="1" stop-color="#7d55ff" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="11" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="800" height="480" rx="34" fill="url(#bg)"/>
+  <circle cx="400" cy="240" r="190" fill="url(#halo)"/>
+  <g opacity=".22" stroke="#81c9ff">
+    <path d="M80 90H720M80 160H720M80 230H720M80 300H720M80 370H720"/>
+    <path d="M130 50V430M240 50V430M350 50V430M460 50V430M570 50V430M680 50V430"/>
+  </g>
+  <g stroke="url(#g)" stroke-width="4" fill="none" opacity=".85">
+    <path d="M400 240L206 125"/>
+    <path d="M400 240L602 118"/>
+    <path d="M400 240L650 318"/>
+    <path d="M400 240L191 344"/>
+  </g>
+  <g fill="#0a1021" stroke="url(#g)" stroke-width="4" filter="url(#glow)">
+    <circle cx="400" cy="240" r="78"/>
+    <circle cx="206" cy="125" r="48"/>
+    <circle cx="602" cy="118" r="48"/>
+    <circle cx="650" cy="318" r="48"/>
+    <circle cx="191" cy="344" r="48"/>
+  </g>
+  <g fill="#fff" font-family="Inter, Arial, sans-serif" font-weight="800" text-anchor="middle">
+    <text x="400" y="229" font-size="22">BRAND</text>
+    <text x="400" y="256" font-size="22">IDENTITY</text>
+    <text x="206" y="132" font-size="22">WEB</text>
+    <text x="602" y="126" font-size="30">𝕏</text>
+    <text x="650" y="326" font-size="20">META</text>
+    <text x="191" y="351" font-size="19">CONTENT</text>
+  </g>
+  <g fill="url(#g)">
+    <circle cx="304" cy="183" r="7"/><circle cx="505" cy="178" r="7"/><circle cx="524" cy="279" r="7"/><circle cx="292" cy="294" r="7"/>
+  </g>
+</svg>
