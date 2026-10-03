@@ -1,5 +1,7 @@
 # MaxImpress official website
 
-The public GitHub Pages site is https://maximpressorg.github.io/. Its hostname-level homepage carries the MaxImpress site name, logo favicon, and the current social media management and X monetization information.
+Final owner-approved V12.4 ZIP restored on 3 October 2026.
 
-At the owner's request, this is now a homepage-only site. Other HTML URLs redirect to the homepage; the sitemap lists only that URL. Earlier page content remains in Git history if the site returns to separate service and article pages. Keep the homepage's claims, site name, favicon, navigation, and sitemap accurate whenever publishing changes.
+Home, Services and Portfolio visible HTML, CSS and JavaScript are preserved from the ZIP. Only hidden search metadata may change without further owner approval. Other pages remain available through normal navigation but are noindex; the sitemap contains only the homepage. The preferred search site name is MaxImpress. Do not replace the site with a one-page redesign or redirect working inner pages to the homepage.
+
+Old generated pages absent from the ZIP remain legacy redirects and are not navigation destinations.

@@ -87,7 +87,7 @@
       (trust.length ? '<div class="client-card-trust">✓ ' + esc(trust[0]) + '</div>' : '') +
       '<div class="client-card-footer">' +
         '<div class="client-record-summary"><span>PORTFOLIO NOTE</span><p>Only supplied client information is shown. Testimonials and performance evidence are added only when documented.</p></div>' +
-        '<a class="client-story-link" href="client-story-' + encodeURIComponent(c.slug || '') + '.html">' + (story ? 'View Client Story' : 'View Client Profile') + ' <b>→</b></a>' +
+        '<a class="client-story-link" href="client-story.html?client=' + encodeURIComponent(c.slug || '') + '">' + (story ? 'View Client Story' : 'View Client Profile') + ' <b>→</b></a>' +
       '</div>' +
     '</article>';
   }
